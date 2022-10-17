@@ -1,0 +1,23 @@
+<html>
+	<head>
+		<title>Estados agua</title>
+	</head>
+	<body>
+		<script>
+			var temperatura = 0;
+			var temperatura_string = prompt("Dime la temperatura del agua");
+			temperatura = parseInt(temperatura_string);
+			
+			if(temperatura<0){
+			alert("Es hielo");
+			}else{
+			if(temperatura<100){
+			alert("Es agua líquida");
+			}else{
+			alert("Es vapor");
+			}
+			}
+			alert("Fin del algoritmo");
+		</script>
+	</body>
+</html>
